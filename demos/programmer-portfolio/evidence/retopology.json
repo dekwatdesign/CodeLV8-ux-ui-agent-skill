@@ -1,0 +1,100 @@
+{
+  "objects": [
+    {
+      "object": "Head",
+      "before": {
+        "vertices": 266,
+        "faces": 288
+      },
+      "base_vertices": 386,
+      "base_quads": 384,
+      "subdivision": 1,
+      "closed_manifold": true,
+      "evaluated_faces": 1536,
+      "evaluated_vertices": 1538
+    },
+    {
+      "object": "Hair cap",
+      "before": {
+        "vertices": 266,
+        "faces": 288
+      },
+      "base_vertices": 386,
+      "base_quads": 384,
+      "subdivision": 1,
+      "closed_manifold": true,
+      "evaluated_faces": 1536,
+      "evaluated_vertices": 1538
+    },
+    {
+      "object": "Sweatshirt",
+      "before": {
+        "vertices": 266,
+        "faces": 288
+      },
+      "base_vertices": 386,
+      "base_quads": 384,
+      "subdivision": 1,
+      "closed_manifold": true,
+      "evaluated_faces": 1536,
+      "evaluated_vertices": 1538
+    },
+    {
+      "object": "Typing hand L",
+      "before": {
+        "vertices": 266,
+        "faces": 288
+      },
+      "base_vertices": 386,
+      "base_quads": 384,
+      "subdivision": 1,
+      "closed_manifold": true,
+      "evaluated_faces": 1536,
+      "evaluated_vertices": 1538
+    },
+    {
+      "object": "Typing hand R",
+      "before": {
+        "vertices": 266,
+        "faces": 288
+      },
+      "base_vertices": 386,
+      "base_quads": 384,
+      "subdivision": 1,
+      "closed_manifold": true,
+      "evaluated_faces": 1536,
+      "evaluated_vertices": 1538
+    },
+    {
+      "object": "Upper sleeve",
+      "before": {
+        "vertices": 32,
+        "faces": 18
+      },
+      "base_vertices": 354,
+      "base_quads": 352,
+      "subdivision": 1,
+      "closed_manifold": true,
+      "evaluated_faces": 1408,
+      "evaluated_vertices": 1410
+    },
+    {
+      "object": "Upper sleeve.001",
+      "before": {
+        "vertices": 32,
+        "faces": 18
+      },
+      "base_vertices": 354,
+      "base_quads": 352,
+      "subdivision": 1,
+      "closed_manifold": true,
+      "evaluated_faces": 1408,
+      "evaluated_vertices": 1410
+    }
+  ],
+  "glb_bytes": 2062060,
+  "head_facing_monitor": true,
+  "animation_targets_preserved": true,
+  "backup": "D:/Projects/CodeLV8-ux-ui-agent-skill/output/blender-backups/retopology-v1-before",
+  "export_apply": true
+}

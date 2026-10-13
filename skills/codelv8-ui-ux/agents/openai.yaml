@@ -1,0 +1,6 @@
+interface:
+  display_name: "CodeLV8 UI/UX"
+  short_description: "UX reasoning, web UI implementation, and honest QA"
+  default_prompt: "Use $codelv8-ui-ux to design or improve this web interface, preserve the project's stack, and verify the requested result."
+policy:
+  allow_implicit_invocation: true

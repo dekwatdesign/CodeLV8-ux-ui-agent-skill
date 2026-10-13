@@ -1,0 +1,65 @@
+{
+  "error": "Modal focus containment 2",
+  "checks": [
+    "Local Thai font loaded",
+    "No overflow 320",
+    "Both generated images loaded 320",
+    "axe: viewport-320",
+    "No overflow 390",
+    "Both generated images loaded 390",
+    "axe: viewport-390",
+    "No overflow 768",
+    "Both generated images loaded 768",
+    "axe: viewport-768",
+    "No overflow 1440",
+    "Both generated images loaded 1440",
+    "axe: viewport-1440",
+    "Acne filter shows one package",
+    "Acne pressed state",
+    "Keyboard moisture filter shows two packages",
+    "Package glow opens",
+    "Package glow details",
+    "Package glow focus restored",
+    "Package clear opens",
+    "Package clear details",
+    "Package clear focus restored",
+    "Package ritual opens",
+    "Package ritual details",
+    "Package ritual focus restored",
+    "Case dry clearly labeled",
+    "Case acne clearly labeled",
+    "Case routine clearly labeled",
+    "Package booking preserves service",
+    "Name focused on booking",
+    "Empty fields expose errors",
+    "Past date rejected and name retained",
+    "Success explains no confirmed appointment",
+    "axe: booking-success",
+    "Mobile modal fits",
+    "Modal focus containment 0",
+    "Modal focus containment 1"
+  ],
+  "audits": [
+    {
+      "state": "viewport-320",
+      "violations": []
+    },
+    {
+      "state": "viewport-390",
+      "violations": []
+    },
+    {
+      "state": "viewport-768",
+      "violations": []
+    },
+    {
+      "state": "viewport-1440",
+      "violations": []
+    },
+    {
+      "state": "booking-success",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

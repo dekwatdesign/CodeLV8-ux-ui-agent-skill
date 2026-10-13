@@ -1,0 +1,18 @@
+[
+  {
+    "file": "studio.glb",
+    "bytes": 9441216,
+    "meshes": 200,
+    "triangles": 446348,
+    "animations": 3,
+    "body_vertices": 104450
+  },
+  {
+    "file": "studio-mobile.glb",
+    "bytes": 3376992,
+    "meshes": 200,
+    "triangles": 142220,
+    "animations": 3,
+    "body_vertices": 26114
+  }
+]

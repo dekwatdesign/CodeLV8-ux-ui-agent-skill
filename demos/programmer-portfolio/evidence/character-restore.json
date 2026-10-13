@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "bytes": 378624,
+      "file": "studio.blend",
+      "sha256": "37EB14B123038941E2FC827005BD34CA282A3DE3BD4658A32774E63F1D01334E"
+    },
+    {
+      "bytes": 9441216,
+      "file": "studio.glb",
+      "sha256": "77C25FCFDDD5E200DBD597A5D75768B480ECB641AE6BA19F05C615652E9E8B7F"
+    },
+    {
+      "bytes": 3376992,
+      "file": "studio-mobile.glb",
+      "sha256": "71475371B2562E0863F26F24D5FF8A750EC2D66AE88DF338452BD32AC49FCF9C"
+    },
+    {
+      "bytes": 1138600,
+      "file": "studio-preview.png",
+      "sha256": "7B4066054AAD1E45CFC3644913F1BB7CD952BEB1F0C7BE55C818E3DEF400694E"
+    }
+  ],
+  "source": "D:\\Projects\\CodeLV8-ux-ui-agent-skill\\output\\blender-backups\\tripo-room-integration-before",
+  "character": "original procedural high-poly",
+  "previous_tripo_backup": "D:\\Projects\\CodeLV8-ux-ui-agent-skill\\output\\blender-backups\\tripo-room-before-restore-856ce5a6526043a78fe430a1e57f8500"
+}

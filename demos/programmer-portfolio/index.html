@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f7f3">
+  <meta name="description" content="Demo portfolio ภาษาไทยสำหรับโปรแกรมเมอร์ พร้อมห้องทำงาน 3D และตัวละครนั่งเขียนโค้ด">
+  <title>ภาคิน · Developer Portfolio — Demo</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%2323453e'/%3E%3Ctext x='6' y='28' fill='white' font-size='24'%3EP.%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">{"imports":{"three":"./assets/vendor/three.module.js","three/addons/":"./assets/vendor/addons/"}}</script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">ข้ามไปเนื้อหาหลัก</a>
+  <header class="header wrap">
+    <a class="brand" href="#home" aria-label="ภาคิน กลับหน้าแรก"><span class="brand-icon">p<span>.</span></span><span>PHAKIN<span class="brand-sub">DEVELOPER & MAKER</span></span></a>
+    <nav aria-label="เมนูหลัก"><a href="#about">เกี่ยวกับผม</a><a href="#skills">ทักษะ</a><a href="#work">ผลงาน</a><a href="#contact" class="nav-contact">มาคุยกัน <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="availability"><span class="status-dot"></span> เปิดรับโอกาสและโปรเจคใหม่</div>
+        <p class="eyebrow">สวัสดีครับ ผมภาคิน</p>
+        <h1 id="hero-title">เปลี่ยนไอเดีย<br>ให้เป็น<span class="highlight">สิ่งที่ใช้ได้จริง<span class="underline"></span></span></h1>
+        <p class="intro">โปรแกรมเมอร์ที่ใส่ใจทั้งโค้ดและคนใช้<br>ผมออกแบบและพัฒนาเว็บแอปที่เรียบง่าย<br class="desktop-break"> ทำงานได้ดี และเติบโตไปพร้อมกับธุรกิจ</p>
+        <div class="hero-actions"><a href="#work" class="button primary">ดูผลงานของผม <span aria-hidden="true">↗</span></a><a href="#about" class="text-link">รู้จักผมอีกนิด <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-note"><span class="mini-code" aria-hidden="true">&lt;/&gt;</span><span>Full-stack developer<span>กรุงเทพฯ, ประเทศไทย · ทำงานแบบ Remote ได้</span></span></div>
+      </div>
+      <div class="studio-card">
+        <div class="studio-top"><span><i class="status-dot"></i> MY LITTLE WORKSPACE</span><span class="studio-index">01 / STUDIO</span></div>
+        <div class="scene" id="scene" role="img" aria-label="ห้องทำงาน 3D มีโปรแกรมเมอร์ใส่แว่นนั่งพิมพ์โค้ดที่โต๊ะพร้อมคอมพิวเตอร์ตั้งโต๊ะ">
+          <img id="scene-poster" src="assets/studio-preview.png" alt="โมเดลห้องทำงาน มีตัวละครใส่แว่น โต๊ะ คอมพิวเตอร์ และต้นไม้">
+          <p id="scene-status" role="status">กำลังเปิดห้องทำงาน 3D…</p>
+        </div>
+        <div class="scene-caption"><span class="scene-label"><span class="code-mark">&lt;/&gt;</span> กำลังสร้างสิ่งดี ๆ ทีละบรรทัด</span><span class="small-label">COFFEE. CODE. REPEAT.</span></div>
+        <div class="scene-controls" aria-label="ควบคุมฉาก 3D"><button id="motion" disabled aria-pressed="false">หยุดการเคลื่อนไหว</button><button id="rotate" disabled aria-pressed="false">หมุนห้อง</button><button id="reset" disabled>มุมเริ่มต้น</button><span id="scene-hint">ฉาก 3D จาก Blender</span></div>
+      </div>
+      <div class="hero-bottom"><span>คิดเป็นระบบ · สร้างอย่างใส่ใจ · เรียนรู้อยู่เสมอ</span><a href="#about">เลื่อนเพื่อสำรวจ <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <div class="stack-strip"><div class="wrap"><span class="eyebrow">MY EVERYDAY TOOLKIT</span><span>TypeScript</span><span>React</span><span>Next.js</span><span>Laravel</span><span>PostgreSQL</span><span>Git</span></div></div>
+    <section id="about" class="section wrap about" aria-labelledby="about-title">
+      <div><p class="eyebrow">01 — A LITTLE ABOUT ME</p><h2 id="about-title">เบื้องหลังโค้ด<br>คือคนที่ชอบ<span class="serif">แก้ปัญหา</span></h2></div>
+      <div class="about-body"><p class="body-large">ผมเชื่อว่าเทคโนโลยีที่ดี เริ่มต้นจากการเข้าใจผู้คน</p><p>ผม ภาคิน วัฒนกุล เป็น Full-stack Developer ที่สนุกกับการเปลี่ยนโจทย์ซับซ้อนให้เป็นประสบการณ์ที่เข้าใจง่าย ตั้งแต่วางระบบ ออกแบบฐานข้อมูล ไปจนถึงรายละเอียดเล็ก ๆ บนหน้าจอ</p><p>เวลาว่างผมชอบทดลองงาน 3D ทำ side project และแบ่งปันสิ่งที่เรียนรู้ เพราะทุกโปรเจคคือโอกาสที่จะทำให้ดีกว่าเมื่อวาน</p><div class="facts"><div><span>แนวทางการทำงาน</span><strong>คิดให้ชัด แล้วค่อยสร้าง</strong></div><div><span>สิ่งที่ให้ความสำคัญ</span><strong>ผู้ใช้ · คุณภาพ · ทีมเวิร์ก</strong></div></div><p class="fixture-note">ข้อมูลบุคคล ทักษะ และผลงานทั้งหมดเป็นตัวอย่างสำหรับ demo</p></div>
+    </section>
+    <section id="skills" class="section wrap" aria-labelledby="skills-title">
+      <div class="section-heading"><div><p class="eyebrow">02 — WHAT I BRING TO THE TABLE</p><h2 id="skills-title">จากภาพในหัว สู่ระบบที่ทำงาน</h2></div><p>เชื่อมการออกแบบกับวิศวกรรม<br>ให้ทุกส่วนทำงานร่วมกันอย่างลงตัว</p></div>
+      <div class="skill-grid">
+        <article class="skill-card"><span class="skill-icon" aria-hidden="true">&lt;/&gt;</span><span class="card-number">01</span><h3>Frontend ที่คนใช้รู้สึกดี</h3><p>เปลี่ยนดีไซน์เป็น UI ที่ตอบสนองรวดเร็ว รองรับทุกหน้าจอ และใช้งานด้วยคีย์บอร์ดได้</p><div class="tags"><span>React</span><span>TypeScript</span><span>CSS</span></div></article>
+        <article class="skill-card"><span class="skill-icon" aria-hidden="true">{ }</span><span class="card-number">02</span><h3>Backend ที่ไว้วางใจได้</h3><p>ออกแบบ API และฐานข้อมูลให้ชัดเจน ตรวจสอบสิทธิ์อย่างเป็นระบบ และดูแลต่อได้ง่าย</p><div class="tags"><span>Laravel</span><span>Node.js</span><span>SQL</span></div></article>
+        <article class="skill-card"><span class="skill-icon" aria-hidden="true">◇</span><span class="card-number">03</span><h3>คิดครบตั้งแต่ต้นจนส่งมอบ</h3><p>เข้าใจโจทย์ แบ่งงานเป็นขั้นตอน ทดสอบกับการใช้งานจริง และสื่อสารกับทีมอย่างตรงไปตรงมา</p><div class="tags"><span>UX thinking</span><span>Testing</span><span>Git</span></div></article>
+      </div>
+    </section>
+    <section id="work" class="section wrap" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow">03 — SELECTED PROJECTS</p><h2 id="work-title">งานที่เล่าเรื่องวิธีคิดของผม</h2></div><span class="muted">ตัวอย่างแนวคิดโปรเจค / 2026</span></div>
+      <div class="project-grid">
+        <article class="project"><div class="project-art art-dashboard" aria-hidden="true"><div class="mock-dashboard"><div class="mock-sidebar">orbit<span>Overview</span><span>Projects</span><span>Team</span></div><div class="mock-main"><div class="mock-title">Good morning, team.</div><div class="mock-metrics"><b>24<small>Projects</small></b><b>86%<small>Progress</small></b><b>12<small>Members</small></b></div><div class="mock-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div><span class="art-badge">WEB APPLICATION</span></div><div class="project-title"><h3>Orbit — จัดการงานให้เป็นระบบ</h3><button data-project="orbit" aria-label="ดูรายละเอียด Orbit">↗</button></div><p>พื้นที่ทำงานร่วมกันที่ลดความซับซ้อนของทีม</p><div class="tags"><span>React</span><span>Laravel</span><span>PostgreSQL</span></div></article>
+        <article class="project"><div class="project-art art-commerce" aria-hidden="true"><div class="mock-shop"><span>mellow / living</span><strong>Less, but<br>better.</strong><div class="chair-illustration"><i></i><b></b><em></em></div><small>Objects for everyday joy.</small></div><span class="art-badge">E-COMMERCE</span></div><div class="project-title"><h3>Mellow — ประสบการณ์ร้านค้าออนไลน์</h3><button data-project="mellow" aria-label="ดูรายละเอียด Mellow">↗</button></div><p>ค้นหาสินค้าได้ง่าย ในบรรยากาศที่เป็นตัวเอง</p><div class="tags"><span>Next.js</span><span>TypeScript</span><span>UX / UI</span></div></article>
+      </div>
+    </section>
+    <section id="contact" class="contact wrap" aria-labelledby="contact-title"><div><p class="eyebrow">HAVE SOMETHING IN MIND?</p><h2 id="contact-title">ไอเดียของคุณ<br>อาจเป็น<span class="serif">โปรเจคถัดไปของเรา</span></h2><p>ชอบวิธีคิดของผม? มาเริ่มบทสนทนากันครับ</p></div><div class="contact-action"><button class="button primary" id="contact-open">พูดคุยเรื่องโปรเจค <span aria-hidden="true">↗</span></button><span>กรุงเทพฯ · GMT+7</span><span class="fixture-note">ช่องทางติดต่อเป็นตัวอย่าง ไม่ส่งข้อความจริง</span></div></section>
+  </main>
+  <footer class="wrap"><span>© 2026 PHAKIN · Portfolio demo</span><span>ออกแบบด้วยความใส่ใจ เขียนด้วยความตั้งใจ</span><a href="#home">กลับด้านบน ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow">PROJECT CONCEPT / DEMO</span><button class="close" aria-label="ปิดรายละเอียด">×</button></div><h2 id="dialog-title"></h2><p id="dialog-description"></p><h3>บทบาทและแนวทาง</h3><p id="dialog-role"></p><h3>ศักยภาพที่นำเสนอ</h3><ul id="dialog-features"></ul><p class="fixture-note">นี่คือแนวคิดผลงานตัวอย่าง ไม่มีระบบ backend หรือผลลัพธ์ทางธุรกิจจริง</p><button class="button primary close-action">กลับไปดูผลงาน</button></dialog>
+  <dialog id="contact-dialog" aria-labelledby="contact-dialog-title"><div class="dialog-top"><span class="eyebrow">LET’S BUILD SOMETHING</span><button class="close" aria-label="ปิดช่องทางติดต่อ">×</button></div><h2 id="contact-dialog-title">มาเริ่มบทสนทนากัน</h2><p>ตัวอย่างช่องทางติดต่อสำหรับ portfolio<br>เปลี่ยนเป็นข้อมูลจริงก่อนนำไปเผยแพร่</p><div class="contact-email">phakin@example.com</div><button id="copy-email" class="button primary">คัดลอกอีเมลตัวอย่าง</button><p id="copy-status" role="status"></p></dialog>
+  <noscript><p class="noscript">เปิด JavaScript เพื่อดู animation 3D และรายละเอียดโปรเจค เนื้อหาแนะนำตัวทั้งหมดอ่านได้โดยไม่ใช้ JavaScript</p></noscript>
+</body>
+</html>

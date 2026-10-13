@@ -1,0 +1,19 @@
+{
+  "scene": "Portfolio Tripo Studio",
+  "character": "Tripo seated programmer",
+  "animation": "local morph targets: left fingers, right fingers, breathing",
+  "affected_vertices": {
+    "left": 2291,
+    "right": 2581,
+    "head": 10830
+  },
+  "keyboard_source_height": 0.6032363772392273,
+  "pose_raise_m": 0.4606308916211127,
+  "character_height_m": 2.16,
+  "uses_generated_keyboard_and_seat_shell": true,
+  "rig_type": "morph animation, no skeleton",
+  "additional_tripo_credits": 0,
+  "backup": "D:/Projects/CodeLV8-ux-ui-agent-skill/output/blender-backups/tripo-room-integration-before",
+  "high_glb_bytes": 10892352,
+  "mobile_glb_bytes": 8582108
+}

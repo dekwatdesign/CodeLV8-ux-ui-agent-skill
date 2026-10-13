@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f6f5">
+  <title>Pulse PMS — ภาพรวมผลงานบุคลากร</title>
+  <link rel="preload" href="assets/fonts/LINESeedSansTH_W_Rg.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปเนื้อหาหลัก</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="เมนูหลัก">
+      <a class="brand" href="#overview"><span class="brand-mark" aria-hidden="true">p</span><span><strong>pulse<span class="brand-period">.</span></strong><small>ระบบบริหารผลงานบุคลากร</small></span></a>
+      <p class="nav-label">พื้นที่ทำงาน</p>
+      <nav class="main-nav" aria-label="หน้าต่าง ๆ">
+        <a href="#overview" aria-current="location"><span>ภาพรวม</span><span class="nav-dot" aria-hidden="true"></span></a>
+        <a href="#employees"><span>บุคลากร</span><span class="nav-number">12</span></a>
+        <a href="#goal-section"><span>เป้าหมายและตัวชี้วัด</span></a>
+        <button type="button" id="cycle-info">รอบการประเมิน</button>
+      </nav>
+      <section class="sidebar-cycle" aria-labelledby="sidebar-cycle-heading">
+        <span class="eyebrow">รอบที่เลือก</span><h2 id="sidebar-cycle-heading">ไตรมาส 3 / 2569</h2>
+        <div class="cycle-progress"><span id="sidebar-completed">6 จาก 12 คน</span><strong id="sidebar-percent">50%</strong></div>
+        <progress id="sidebar-progress" max="12" value="6" aria-label="จำนวนที่ประเมินแล้ว"></progress>
+        <p id="sidebar-deadline">ปิดรอบวันที่ 20 ต.ค. 2569</p>
+      </section>
+      <div class="sidebar-bottom"><span class="avatar manager" aria-hidden="true">น</span><div><strong>นลิน</strong><small>ผู้ดูแลการประเมิน</small></div><span class="role-pill">HR</span></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-left"><button type="button" class="menu-button" id="menu-toggle" aria-controls="sidebar" aria-expanded="false">เมนู</button><span class="breadcrumb">พื้นที่ทำงาน <span aria-hidden="true">/</span> <strong>ภาพรวม</strong></span></div>
+        <span class="demo-pill"><span aria-hidden="true"></span>ต้นแบบ · ข้อมูลสมมติ</span>
+      </header>
+      <main id="main" tabindex="-1">
+        <section class="page-heading" id="overview" aria-labelledby="page-title">
+          <div><p class="eyebrow">PERFORMANCE MANAGEMENT</p><h1 id="page-title">ภาพรวมผลงานบุคลากร</h1><p class="page-description">เห็นความก้าวหน้าของทีม และรู้ว่าต้องดูแลเรื่องไหนต่อ</p></div>
+          <div class="heading-actions"><button type="button" id="export" class="button secondary">ส่งออกรายงาน</button><button type="button" id="add-goal" class="button primary"><span aria-hidden="true">+</span> เพิ่มเป้าหมาย</button></div>
+        </section>
+        <div class="filters" aria-label="ตัวกรองภาพรวม">
+          <label>รอบการประเมิน<select id="cycle"><option value="q3">ไตรมาส 3 / 2569</option><option value="q2">ไตรมาส 2 / 2569</option></select></label>
+          <label>ฝ่าย<select id="department"><option value="all">ทุกฝ่าย</option><option value="ผลิตภัณฑ์">ผลิตภัณฑ์</option><option value="ปฏิบัติการ">ปฏิบัติการ</option><option value="การขาย">การขาย</option><option value="บุคคล">บุคคล</option></select></label>
+          <p class="snapshot">ข้อมูลตัวอย่าง ณ <strong>13 ต.ค. 2569</strong></p>
+        </div>
+        <section class="metrics" aria-label="สรุปผลการประเมิน" id="metrics"></section>
+        <div class="overview-grid">
+          <section class="panel trend-panel" aria-labelledby="trend-title">
+            <div class="panel-heading"><div><p class="eyebrow">ความคืบหน้าของรอบ</p><h2 id="trend-title">การประเมินของทีม</h2></div><span class="badge neutral" id="round-state">กำลังประเมิน</span></div>
+            <div class="trend-summary"><strong id="trend-value">50<span>%</span></strong><div><p>ประเมินเสร็จแล้ว</p><small id="trend-caption">6 จาก 12 คนในรอบที่เลือก</small></div></div>
+            <figure class="trend-chart"><svg id="trend-chart" viewBox="0 0 640 170" role="img" aria-labelledby="chart-title chart-description"></svg><figcaption>จำนวนผู้ประเมินเสร็จสะสม · ข้อมูลตัวอย่าง</figcaption></figure>
+            <details class="chart-data"><summary>ดูข้อมูลกราฟเป็นตาราง</summary><div class="table-scroll"><table><caption>ผู้ประเมินเสร็จสะสมตามวันที่</caption><thead><tr><th scope="col">วันที่</th><th scope="col">จำนวน (คน)</th></tr></thead><tbody id="chart-data"></tbody></table></div></details>
+          </section>
+          <section class="panel action-panel" aria-labelledby="action-title">
+            <div class="panel-heading"><div><p class="eyebrow">เรื่องที่ต้องทำต่อ</p><h2 id="action-title">รอคุณตรวจทาน</h2></div><span class="count-bubble" id="pending-count">4</span></div>
+            <p class="action-description" id="action-description">ปิดผลการประเมินภายใน 20 ต.ค. นี้</p>
+            <ul class="review-queue" id="review-queue"></ul>
+            <button type="button" class="button queue-action" id="show-pending">ดูรายการรอตรวจทานทั้งหมด <span aria-hidden="true">→</span></button>
+          </section>
+        </div>
+        <section class="panel department-panel" aria-labelledby="department-title">
+          <div class="panel-heading"><div><h2 id="department-title">คะแนนเบื้องต้นรายฝ่าย</h2><p class="section-description">เฉลี่ยเฉพาะผู้มีคะแนน รวมผลที่ยังรอตรวจทาน</p></div><span class="subtle-label">เต็ม 100 คะแนน</span></div>
+          <ul class="department-bars" id="department-bars"></ul>
+        </section>
+        <section class="panel people-panel" id="employees" aria-labelledby="people-title">
+          <div class="panel-heading"><div><h2 id="people-title">ผลงานรายบุคคล <span class="heading-count" id="people-count">12</span></h2><p class="section-description">ดูคะแนน เป้าหมาย และสถานะการประเมินในที่เดียว</p></div><label class="search-field"><span class="sr-only">ค้นหาชื่อหรือตำแหน่ง</span><input id="search" type="search" placeholder="ค้นหาชื่อหรือตำแหน่ง…" autocomplete="off"></label></div>
+          <div class="status-filters" role="group" aria-label="สถานะการประเมิน">
+            <button type="button" data-status="all" aria-pressed="true">ทุกสถานะ</button><button type="button" data-status="pending" aria-pressed="false">รอตรวจทาน</button><button type="button" data-status="reviewed" aria-pressed="false">ประเมินแล้ว</button><button type="button" data-status="incomplete" aria-pressed="false">ยังไม่ส่งผล</button>
+          </div>
+          <div class="people-header" aria-hidden="true"><span>บุคลากร</span><span>ฝ่าย</span><span>คะแนนเบื้องต้น</span><span>สถานะ</span><span></span></div>
+          <ul class="people-list" id="people-list"></ul>
+          <div class="empty-state" id="people-empty" hidden><strong>ไม่พบบุคลากรที่ตรงกับตัวกรอง</strong><p>ลองเปลี่ยนคำค้น หรือแสดงทุกสถานะ</p><button type="button" class="button secondary" id="clear-search">ล้างคำค้นและสถานะ</button></div>
+          <div class="list-footer"><p id="page-description" aria-live="polite"></p><div class="pagination"><button type="button" id="previous" aria-label="หน้าก่อนหน้า">←</button><span id="page-number">1 / 2</span><button type="button" id="next" aria-label="หน้าถัดไป">→</button></div></div>
+        </section>
+        <section id="goal-section" aria-labelledby="goals-title" class="goals-section">
+          <div class="panel-heading"><div><h2 id="goals-title">เป้าหมายที่ควรติดตาม</h2><p class="section-description" id="goals-description">เริ่มจากเป้าหมายที่คืบหน้าต่ำกว่า 50% ในรอบที่เลือก</p></div><div class="heading-actions"><button type="button" class="text-button" id="show-all-goals">ดูทั้งหมด</button><button type="button" class="text-button" id="add-goal-secondary">เพิ่มเป้าหมายใหม่ <span aria-hidden="true">→</span></button></div></div>
+          <ul class="goal-cards" id="goal-cards"></ul>
+        </section>
+        <footer class="page-footer"><span>Pulse PMS · ต้นแบบเพื่อทบทวนการออกแบบ</span><span>ข้อมูลเปลี่ยนเฉพาะหน้านี้ และเริ่มใหม่เมื่อโหลดซ้ำ</span></footer>
+      </main>
+    </div>
+  </div>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-header"><div><p class="eyebrow" id="dialog-eyebrow">ผลงานรายบุคคล</p><h2 id="dialog-title"></h2></div><button type="button" data-close class="button secondary">ปิด</button></div>
+    <div id="dialog-body"></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

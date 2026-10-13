@@ -1,0 +1,71 @@
+{
+  "task_id": "2899f885-313a-4997-93eb-fbadb14f5437",
+  "mesh_count": 1,
+  "bounds_min": [
+    -0.0962030291557312,
+    -0.09632796049118042,
+    -0.1749904602766037
+  ],
+  "bounds_max": [
+    0.09626124054193497,
+    0.09655836224555969,
+    0.17500950396060944
+  ],
+  "size": [
+    0.19246426224708557,
+    0.1928863227367401,
+    0.34999996423721313
+  ],
+  "meshes": [
+    {
+      "name": "tripo_node_2899f885",
+      "vertices": 48939,
+      "faces": 48849,
+      "quads": 48764,
+      "triangles": 80,
+      "ngons": 5,
+      "uv_layers": 1,
+      "materials": [
+        "tripo_mat_2899f885"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "tripo_image_2899f885_0",
+      "size": [
+        2048,
+        2048
+      ],
+      "filepath": "D:\\Projects\\CodeLV8-ux-ui-agent-skill\\demos\\programmer-portfolio\\assets\\characters\\tripo-out\\portfolio-programmer-tripo-2899f885\\tripo_pbr_model_2899f885-313a-4997-93eb-fbadb14f5437.fbm\\Color.jpg",
+      "packed": true
+    },
+    {
+      "name": "tripo_image_2899f885_2",
+      "size": [
+        2048,
+        2048
+      ],
+      "filepath": "D:\\Projects\\CodeLV8-ux-ui-agent-skill\\demos\\programmer-portfolio\\assets\\characters\\tripo-out\\portfolio-programmer-tripo-2899f885\\tripo_pbr_model_2899f885-313a-4997-93eb-fbadb14f5437.fbm\\Metallic.jpg",
+      "packed": true
+    },
+    {
+      "name": "tripo_image_2899f885_1",
+      "size": [
+        2048,
+        2048
+      ],
+      "filepath": "D:\\Projects\\CodeLV8-ux-ui-agent-skill\\demos\\programmer-portfolio\\assets\\characters\\tripo-out\\portfolio-programmer-tripo-2899f885\\tripo_pbr_model_2899f885-313a-4997-93eb-fbadb14f5437.fbm\\Roughness.jpg",
+      "packed": true
+    },
+    {
+      "name": "tripo_image_2899f885_3",
+      "size": [
+        2048,
+        2048
+      ],
+      "filepath": "D:\\Projects\\CodeLV8-ux-ui-agent-skill\\demos\\programmer-portfolio\\assets\\characters\\tripo-out\\portfolio-programmer-tripo-2899f885\\tripo_pbr_model_2899f885-313a-4997-93eb-fbadb14f5437.fbm\\Normal.png",
+      "packed": true
+    }
+  ]
+}

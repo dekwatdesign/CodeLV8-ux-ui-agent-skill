@@ -1,0 +1,16 @@
+[
+  {
+    "file": "studio.glb",
+    "bytes": 9441216,
+    "animations": 3,
+    "original_head": true,
+    "tripo_character_present": false
+  },
+  {
+    "file": "studio-mobile.glb",
+    "bytes": 3376992,
+    "animations": 3,
+    "original_head": true,
+    "tripo_character_present": false
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "task_id": "2899f885-313a-4997-93eb-fbadb14f5437",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "pbr": true,
+    "quad": true,
+    "prompt": "One isolated full-body stylized adult Southeast Asian male programmer, short neatly shaped dark hair, thin round black eyeglasses, friendly face, natural human proportions, cream cotton sweatshirt with subtle fabric folds, indigo trousers, simple white sneakers. Seated coding pose without a chair: upright torso, hips and knees bent at 90 degrees, feet level, elbows bent, both forearms extended forward and hands positioned for typing on an imaginary keyboard. Detailed clean sculpt, clear fingers, symmetrical anatomy, tasteful realistic PBR materials. Character only, no desk, no computer, no chair, no room, no floor, no text.",
+    "texture": true,
+    "auto_size": true,
+    "export_uv": true,
+    "model_version": "v3.1-20260211",
+    "geometry_quality": "detailed",
+    "texture_alignment": "geometry"
+  },
+  "output_fields": [
+    "model_url",
+    "rendered_image_url",
+    "generated_image_url"
+  ],
+  "credits_consumed": 45,
+  "created_at": "2026-10-13T08:02:04.249505Z",
+  "completed_at": "2026-10-13T08:03:59.085155Z",
+  "files": [
+    "model.fbx",
+    "rendered_image.webp",
+    "generated_image.jpeg",
+    "preview.png"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-13",
+  "browser": "151.0.7922.34",
+  "passed": 35,
+  "checks": [
+    "Local LINE Seed font loaded",
+    "No horizontal overflow at 320",
+    "Axe scan no violations at 320",
+    "No horizontal overflow at 390",
+    "Axe scan no violations at 390",
+    "No horizontal overflow at 768",
+    "Axe scan no violations at 768",
+    "No horizontal overflow at 1440",
+    "Axe scan no violations at 1440",
+    "Annual pricing and total update",
+    "Keyboard restores monthly price",
+    "List view and accessible state update",
+    "Board view restored",
+    "FAQ works with keyboard",
+    "Modal opens with field focus",
+    "Empty inputs show errors",
+    "Invalid email keeps team input",
+    "Valid form gives truthful demo success",
+    "Mobile dialog fits viewport",
+    "Dialog axe scan",
+    "Modal Tab containment 1",
+    "Modal Tab containment 2",
+    "Modal Tab containment 3",
+    "Modal Tab containment 4",
+    "Modal Tab containment 5",
+    "Modal Tab containment 6",
+    "Modal Tab containment 7",
+    "Modal Tab containment 8",
+    "Escape closes and restores opener focus",
+    "Close clears personal input",
+    "Close button dismisses dialog",
+    "Reduced motion disables smooth scrolling",
+    "200 percent equivalent reflow",
+    "No submission or external network requests",
+    "No runtime errors"
+  ],
+  "errors": [],
+  "audits": [
+    {
+      "width": 320,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "state": "dialog",
+      "violations": []
+    }
+  ],
+  "scope": "Standalone fictional landing page only. No backend, payments, accounts, or user approval tested."
+}

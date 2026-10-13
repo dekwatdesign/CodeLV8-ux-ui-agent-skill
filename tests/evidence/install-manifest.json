@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-13",
+  "version": "1.0.0",
+  "source": "D:\\Projects\\CodeLV8-ux-ui-agent-skill\\skills\\codelv8-ui-ux",
+  "installed": "C:\\Users\\User\\.codex\\skills\\codelv8-ui-ux",
+  "targetPreviouslyAbsent": true,
+  "matchedFiles": 8,
+  "files": [
+    {
+      "file": "SKILL.md",
+      "sha256": "21EC5539AF91BC2E88D5505F0EA620DA14EA1C9C09EBE5913610BEF6DB8676B1"
+    },
+    {
+      "file": "agents\\openai.yaml",
+      "sha256": "9C90566BCC11D8BD76BEDBAD6820E13F1D86B1B4F6C6F9BF6C7D665F8381856A"
+    },
+    {
+      "file": "references\\attribution.md",
+      "sha256": "4304523DC88FF80F9453A4857A84FAA525D9847823A40E27DC108D4BDE70A9EB"
+    },
+    {
+      "file": "references\\component-specification.md",
+      "sha256": "9F4DFBC2CD4415D3E9654DF59353D0C14B95E69581EF6175902345A4ED7A6B7C"
+    },
+    {
+      "file": "references\\screen-design.md",
+      "sha256": "133EC8CA6BF25E466925089A36F4CE6D0EFC7461BF25C3880B7FF89C6A5BB496"
+    },
+    {
+      "file": "references\\source-catalog.md",
+      "sha256": "980250E1FDD86C216DE1764394688C93818AB9A329CD4E5F1C5B23099C746E76"
+    },
+    {
+      "file": "references\\ux-reasoning.md",
+      "sha256": "F18DB48519DD8D3291DFD877C9C88766FD48BA661EECB90BF5A255C84F84657F"
+    },
+    {
+      "file": "references\\verification.md",
+      "sha256": "AE6B8E4B1D3B6AC5A9A76EAE3BF4AA9555A5432467F5D992F289E918326E92A2"
+    }
+  ],
+  "originalEntrypoints": [
+    {
+      "path": "C:\\Users\\User\\.agents\\skills\\ui-ux-pro-max\\SKILL.md",
+      "sha256": "D891EA3DBEF820786A83F03F7E8DD8CEE40A3B52B83AD9A187EFE1A733F171E3"
+    },
+    {
+      "path": "C:\\Users\\User\\.codex\\skills\\design-screen\\SKILL.md",
+      "sha256": "73C1EB8A1859103EA51E895A715028C3284210B53DC625DB03CDD2109209A36E"
+    },
+    {
+      "path": "C:\\Users\\User\\.codex\\skills\\design-component\\SKILL.md",
+      "sha256": "6056ED11682A8594B131C2F562A84686B0B13BD9C13B09F62DF5B4D8D04E0630"
+    }
+  ]
+}

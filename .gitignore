@@ -1,0 +1,13 @@
+# Local browser/generator session state
+.playwright-cli/
+.tripo/
+
+# Live Blender session backups: retain locally for rollback
+output/blender-backups/
+
+# Credentials and interpreter caches
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc

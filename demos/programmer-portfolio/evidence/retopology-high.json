@@ -1,0 +1,43 @@
+{
+  "body_base_quads": 1632,
+  "body_base_vertices": 1634,
+  "body_connected_components": 1,
+  "body_closed_manifold": true,
+  "body_all_quads": true,
+  "high_subdivision": 3,
+  "objects": [
+    {
+      "object": "Sweatshirt",
+      "base_faces": 1632,
+      "high_faces": 104448,
+      "high_vertices": 104450
+    },
+    {
+      "object": "Head",
+      "base_faces": 384,
+      "high_faces": 24576,
+      "high_vertices": 24578
+    },
+    {
+      "object": "Hair cap",
+      "base_faces": 384,
+      "high_faces": 24576,
+      "high_vertices": 24578
+    },
+    {
+      "object": "Typing hand L",
+      "base_faces": 384,
+      "high_faces": 24576,
+      "high_vertices": 24578
+    },
+    {
+      "object": "Typing hand R",
+      "base_faces": 384,
+      "high_faces": 24576,
+      "high_vertices": 24578
+    }
+  ],
+  "backup": "D:/Projects/CodeLV8-ux-ui-agent-skill/output/blender-backups/retopology-high-before",
+  "high_glb_bytes": 9441216,
+  "mobile_glb_bytes": 3376992
+}

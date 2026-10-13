@@ -1,0 +1,44 @@
+[
+  {
+    "file": "studio.glb",
+    "bytes": 10892352,
+    "animations": 1,
+    "animated_paths": [
+      "weights"
+    ],
+    "morphs": [
+      {
+        "name": "tripo_mesh_2899f885.001",
+        "targets": 3,
+        "target_names": [
+          "Type left",
+          "Type right",
+          "Breathe"
+        ]
+      }
+    ],
+    "scenes": 1,
+    "triangles": 120803
+  },
+  {
+    "file": "studio-mobile.glb",
+    "bytes": 8582108,
+    "animations": 1,
+    "animated_paths": [
+      "weights"
+    ],
+    "morphs": [
+      {
+        "name": "tripo_mesh_2899f885.001",
+        "targets": 3,
+        "target_names": [
+          "Type left",
+          "Type right",
+          "Breathe"
+        ]
+      }
+    ],
+    "scenes": 1,
+    "triangles": 120803
+  }
+]

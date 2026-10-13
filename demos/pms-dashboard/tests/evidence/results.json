@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-13",
+  "checks": 58,
+  "passed": [
+    "Local LINE Seed regular and bold fonts loaded",
+    "Initial average is derived from 10 scored fixtures",
+    "Initial status summary is six reviewed and four pending",
+    "Initial pagination displays six of twelve",
+    "Dashboard 1440 no document overflow",
+    "Dashboard 1440 axe no violations",
+    "Dashboard 768 no document overflow",
+    "Dashboard 768 axe no violations",
+    "Dashboard 390 no document overflow",
+    "Dashboard 390 axe no violations",
+    "Dashboard 320 no document overflow",
+    "Dashboard 320 axe no violations",
+    "Department scopes all overview metrics",
+    "Department scopes list and bar chart",
+    "Next page reveals remaining employees",
+    "Empty state explains recovery",
+    "Empty-state reset clears search and restores list",
+    "Queue action filters to all pending people",
+    "Detail modal opens and identifies person",
+    "Tab keyboard navigation selects goals",
+    "End selects final review tab",
+    "Invalid score has actionable error and retained input",
+    "Review validation modal axe no violations",
+    "Dirty-close cancellation preserves modal and content",
+    "Dialog forward Tab wraps to close",
+    "Dialog reverse Tab wraps to submit",
+    "Pending save disables duplicate submission and declares busy",
+    "Review save retains query and pending filter",
+    "Saved person leaves pending list without losing page state",
+    "Review save updates average and completed count",
+    "Focus falls back to search when saved row disappears",
+    "Saved score and comment reopen correctly",
+    "Clean detail close restores detail opener",
+    "Goal form validates blank title",
+    "Goal form validates progress range and retains title",
+    "Goal form prevents duplicate submission",
+    "New goal updates risk summary from four to five",
+    "Goal title is escaped instead of executing markup",
+    "Show-all reveals every risk goal",
+    "Compact goal view restores three cards",
+    "CSV export contains only filtered employee and updated score",
+    "CSV uses Thai UTF-8 BOM",
+    "Historical round is complete and has no pending reviews",
+    "Closed round disables new goals",
+    "Closed-round evaluation is read-only",
+    "Mobile navigation opens in document flow",
+    "Mobile menu no document overflow",
+    "Mobile navigation closes after moving to personnel",
+    "Mobile goal modal no document overflow",
+    "Mobile goal modal axe no violations",
+    "Mobile review modal no document overflow",
+    "Mobile review modal axe no violations",
+    "Tablet 125 percent zoom no document overflow",
+    "Reduced-motion preference disables modal animation",
+    "Offline filtering works with loaded local assets",
+    "Offline detail works without backend calls",
+    "Reload resets prototype changes and restores fixture",
+    "No browser page errors"
+  ],
+  "audits": [
+    {
+      "target": "Dashboard 1440",
+      "violations": []
+    },
+    {
+      "target": "Dashboard 768",
+      "violations": []
+    },
+    {
+      "target": "Dashboard 390",
+      "violations": []
+    },
+    {
+      "target": "Dashboard 320",
+      "violations": []
+    },
+    {
+      "target": "Review validation modal",
+      "violations": []
+    },
+    {
+      "target": "Mobile goal modal",
+      "violations": []
+    },
+    {
+      "target": "Mobile review modal",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "browser": "151.0.7922.34",
+  "scope": "This standalone fictional PMS prototype only. No backend, auth, clinical data, real employee outcomes, or user acceptance tested."
+}
